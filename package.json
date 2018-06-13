@@ -1,7 +1,7 @@
 {
   "name": "truffle-shavings",
   "version": "1.0.0",
-  "description": "Ultralight Truffle Boilerplate with solium, linguist, zeppelin, migrations, tests &tc",
+  "description": "Truffle Boilerplate with solium, linguist, zeppelin, migrations, tests &tc",
   "scripts": {
     "test": "truffle test test/*.test.js",
     "deploy": "truffle migrate --reset --compile-all",

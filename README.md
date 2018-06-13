@@ -1,6 +1,6 @@
 ## Truffle Shavings
 
-### Ultralight Truffle Boilerplate with solium, linguist, zeppelin, migrations, tests &tc
+### Truffle Boilerplate with solium, linguist, zeppelin, migrations, tests &tc
 
 ## Install
 ```
