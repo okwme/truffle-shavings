@@ -9,9 +9,9 @@ git clone git@github.com:okwme/truffle-shavings.git
 cd truffle shavings
 yarn
 
-// or
+or 
 
-npm i
+npx truffle unbox okwme/truffle-shavings
 
 // then create a .env file that looks like this:
 
