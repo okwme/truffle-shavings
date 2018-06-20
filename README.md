@@ -1,6 +1,6 @@
 ## Truffle Shavings
 
-![](https://github.com/okwme/truffle-shavings/blob/master/box-img-lg-template.png?raw=true)
+![](https://github.com/okwme/truffle-shavings/blob/master/box-img-lg.png?raw=true)
 ### Truffle Boilerplate with solium, linguist, zeppelin, migrations, tests &tc
 
 ## Install
