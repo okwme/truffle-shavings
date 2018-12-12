@@ -13,14 +13,14 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "bignumber.js": "^8.0.1",
     "dotenv": "^5.0.1",
     "solium": "^1.1.7",
     "truffle-hdwallet-provider": "^1.0.0-web3one.3",
     "zeppelin-solidity": "^1.9.0"
   },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/okwme/truffle-boilerplate.git"
