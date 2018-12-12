@@ -1,6 +1,6 @@
 ## Truffle Shavings
 
-![](https://github.com/okwme/truffle-shavings/blob/master/box-img-lg-template.png?raw=true)
+![](https://github.com/okwme/truffle-shavings/blob/master/box-img-lg.png?raw=true)
 ### Truffle Boilerplate with solium, linguist, zeppelin, migrations, tests &tc
 
 ## Install
@@ -9,9 +9,9 @@ git clone git@github.com:okwme/truffle-shavings.git
 cd truffle shavings
 yarn
 
-// or
+or 
 
-npm i
+npx truffle unbox okwme/truffle-shavings
 
 // then create a .env file that looks like this:
 
