@@ -27,12 +27,24 @@ module.exports = {
       gas: 10000000,
       gasPrice: 1000000000
     },
+    mainnet: {
+      provider() {
+        // using wallet at index 1 ----------------------------------------------------------------------------------------v
+        return new HDWalletProvider(
+          process.env.TESTNET_MNEMONIC,
+          'https://mainnet.infura.io/v3/' + process.env.INFURA_API_KEY,
+          1
+        )
+      },
+      network_id: 1
+      // gas: 5561260
+    },
     kovan: {
       provider() {
         // using wallet at index 1 ----------------------------------------------------------------------------------------v
         return new HDWalletProvider(
           process.env.TESTNET_MNEMONIC,
-          'https://kovan.infura.io/' + process.env.INFURA_API_KEY,
+          'https://kovan.infura.io/v3/' + process.env.INFURA_API_KEY,
           1
         )
       },
@@ -43,7 +55,7 @@ module.exports = {
       provider() {
         return new HDWalletProvider(
           process.env.TESTNET_MNEMONIC,
-          'https://rinkeby.infura.io/' + process.env.INFURA_API_KEY
+          'https://rinkeby.infura.io/v3/' + process.env.INFURA_API_KEY
         )
       },
       network_id: 4
@@ -54,7 +66,7 @@ module.exports = {
       provider() {
         return new HDWalletProvider(
           process.env.TESTNET_MNEMONIC,
-          'https://ropsten.infura.io/' + process.env.INFURA_API_KEY
+          'https://ropsten.infura.io/v3/' + process.env.INFURA_API_KEY
         )
       },
       network_id: 2
