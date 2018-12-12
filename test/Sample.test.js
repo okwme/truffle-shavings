@@ -1,5 +1,5 @@
 var Sample = artifacts.require('./Sample.sol')
-
+var BigNumber = require('bignumber.js')
 let gasPrice = 1000000000 // 1GWEI
 
 let _ = '        '
@@ -10,7 +10,7 @@ contract('Sample', async function(accounts) {
   before(done => {
     ;(async () => {
       try {
-        var totalGas = new web3.BigNumber(0)
+        var totalGas = new BigNumber(0)
 
         // Deploy Sample.sol
         sample = await Sample.new()
