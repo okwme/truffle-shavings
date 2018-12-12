@@ -1,4 +1,3 @@
-var utils = require('web3-utils')
 var Sample = artifacts.require('./Sample.sol')
 
 let gasPrice = 1000000000 // 1GWEI
@@ -15,7 +14,7 @@ contract('Sample', async function(accounts) {
 
         // Deploy Sample.sol
         sample = await Sample.new()
-        var tx = web3.eth.getTransactionReceipt(sample.transactionHash)
+        var tx = await web3.eth.getTransactionReceipt(sample.transactionHash)
         totalGas = totalGas.plus(tx.gasUsed)
         console.log(_ + tx.gasUsed + ' - Deploy sample')
         sample = await Sample.deployed()
