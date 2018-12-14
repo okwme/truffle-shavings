@@ -58,9 +58,9 @@ module.exports = {
           'https://rinkeby.infura.io/v3/' + process.env.INFURA_API_KEY
         )
       },
-      network_id: 4
+      network_id: 4,
       // gas: 4700000,
-      // gasPrice: 20000000000
+      gasPrice: 200000000000 // 200 GWEI
     },
     ropsten: {
       provider() {
