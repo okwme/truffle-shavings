@@ -6,7 +6,7 @@
 ## Install
 ```
 git clone git@github.com:okwme/truffle-shavings.git
-cd truffle shavings
+cd truffle-shavings
 yarn
 
 or 
